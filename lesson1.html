@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Урок 1: Кот, который ходит — Учимся Scratch</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        h1 { color: #ff6b35; }
+        h2 { color: #ff6b35; margin-top: 30px; }
+        a { color: #ff6b35; }
+        .back {
+            display: inline-block;
+            margin-bottom: 20px;
+            text-decoration: none;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+        code {
+            background: #eee;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: Consolas, monospace;
+        }
+        ol li { margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back">← На главную</a>
+
+    <h1>Урок 1: Кот, который ходит</h1>
+    <p>В этом уроке мы научим кота двигаться по сцене и говорить «Привет!».</p>
+
+    <div class="card">
+        <h2>Что нам понадобится</h2>
+        <ul>
+            <li>Открыть Scratch: <a href="https://scratch.mit.edu" target="_blank">scratch.mit.edu</a></li>
+            <li>Нажать «Создать» — откроется новый проект</li>
+            <li>Кот Спрайт уже на сцене — его и будем программировать</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Шаг 1. Заставляем кота говорить</h2>
+        <ol>
+            <li>В левой колонке (блоки) выберите категорию <code>Внешний вид</code>.</li>
+            <li>Найдите блок <code>сказать "Привет!" в течение 2 секунд</code>.</li>
+            <li>Перетащите его в центр экрана (в область скриптов).</li>
+            <li>Нажмите на этот блок — кот скажет «Привет!».</li>
+        </ol>
+    </div>
+
+    <div class="card">
+        <h2>Шаг 2. Заставляем кота двигаться</h2>
+        <ol>
+            <li>В категории <code>Движение</code> возьмите блок <code>идти 10 шагов</code>.</li>
+            <li>Прикрепите его под блок «сказать».</li>
+            <li>Нажмите на скрипт — кот скажет «Привет!» и пройдёт 10 шагов.</li>
+            <li>Поменяйте число на 100, чтобы кот прошёл дальше.</li>
+        </ol>
+    </div>
+
+    <div class="card">
+        <h2>Шаг 3. Запускаем по нажатию зелёного флага</h2>
+        <ol>
+            <li>В категории <code>События</code> возьмите блок <code>когда нажат зелёный флаг</code>.</li>
+            <li>Поставьте его сверху — перед блоком «сказать».</li>
+            <li>Нажмите зелёный флаг над сценой — кот выполнит всю программу.</li>
+        </ol>
+    </div>
+
+    <div class="card">
+        <h2>Задание</h2>
+        <p>Попробуйте сделать так, чтобы кот:</p>
+        <ul>
+            <li>Сказал «Привет!»</li>
+            <li>Прошёл 100 шагов</li>
+            <li>Сказал «Пока!»</li>
+        </ul>
+        <p>Подсказка: используйте два блока <code>сказать</code> и один <code>идти</code> между ними.</p>
+    </div>
+
+    <p style="margin-top: 30px;"><a href="index.html">← Вернуться на главную</a></p>
+</body>
+</html>
